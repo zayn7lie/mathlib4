@@ -16,15 +16,15 @@ these two property.
 
 ## Main definition
 
-- `Diamond r`: $r$ is diamond iff we have $a$ to $b$ and $a$ to $c$ through $r$,
+* `Diamond r`: $r$ is diamond iff we have $a$ to $b$ and $a$ to $c$ through $r$,
     then we could find a $d$ where $b$ and $c$ arrives through $r$.
-- `Confluent r`: $r$ is confluent iff we have $a$ to $b$ and $a$ to $c$ through $r^*$,
+* `Confluent r`: $r$ is confluent iff we have $a$ to $b$ and $a$ to $c$ through $r^*$,
     then we could find a $d$ where $b$ and $c$ arrives through $r^*$.
 
 ## Main Theorem
 
-- `confluent_of_diamond`: Diamond is the confluence of the refl-closure.
-- `rtc_eq_of_sandwich`: if we can find a relation $p$ where `r ⊆ p ⊆ r*`,
+* `confluent_of_diamond`: Diamond is the confluence of the refl-closure.
+* `rtc_eq_of_sandwich`: if we can find a relation $p$ where `r ⊆ p ⊆ r*`,
     then the refl-trans closure $p^* = r^*$.
 
 -/
